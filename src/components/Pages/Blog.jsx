@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogData from "../Data/Blogdata.json"
+import BlogData from "../data/Blogdata.json"
 
 const newCardData = BlogData.CurrentBlog
 
