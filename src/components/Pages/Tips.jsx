@@ -4,7 +4,7 @@ import React from 'react'
 function Tips() {
     return (
         <div>
-            <div className='px-20 py-5 flex  justify-between gap-2 w-full h-full max-sm:flex max-sm:flex-col max-sm:w-full max-sm:px-5'>
+            <div className='px-40 py-5 flex  justify-between gap-2 min-2xl:gap-15 w-full h-full max-sm:flex max-sm:flex-col max-sm:w-full max-sm:px-5'>
                 <div className='border-1 border-slate-300 flex  flex-col justify-between rounded-lg gap-5 h-[45rem] w-full bg-white py-5 px-7 max-sm:px-4'>
                     <p className='text-3xl min-2xl:text-3xl font-semibold'>
                     Service for every dog and cat
@@ -76,7 +76,7 @@ function Tips() {
                      </span>
                      </div>
                     </p>
-                    <p>We are passionate about creating a safe, fun, and loving environment for your pets. Follow our blog to stay informed and ensure your pet receives the best care possible!
+                    <p className='min-2xl:text-lg'>We are passionate about creating a safe, fun, and loving environment for your pets. Follow our blog to stay informed and ensure your pet receives the best care possible!
                     </p>
                 
                     </div>
