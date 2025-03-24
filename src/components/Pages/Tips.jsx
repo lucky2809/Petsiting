@@ -4,8 +4,8 @@ import React from 'react'
 function Tips() {
     return (
         <div>
-            <div className='min-2xl:px-40 px-20 py-5 flex  justify-between gap-2 min-2xl:gap-15 w-full h-full max-sm:flex max-sm:flex-col max-sm:w-full max-sm:px-5'>
-                <div className='border-1 border-slate-300 flex  flex-col justify-between rounded-lg w-full bg-white py-5 px-7 max-sm:px-4'>
+            <div className='min-2xl:px-60 px-20 py-5 flex gap-2 min-2xl:gap-15 w-full h-full max-sm:flex max-sm:flex-col max-sm:w-full max-sm:px-5'>
+                <div className='border-1 border-slate-300 flex  flex-col justify-between rounded-lg w-full min-2xl:w-[2000px] bg-white py-5 px-7 max-sm:px-4'>
                     <p className='text-3xl font-semibold'>
                     Service for every dog and cat
                     </p>
