@@ -4,9 +4,9 @@ import React from 'react'
 function Tips() {
     return (
         <div>
-            <div className='px-20 py-10 flex max-h-[45rem] min-2xl:h-full border-1 justify-between gap-2 w-full h-full max-sm:flex max-sm:flex-col max-sm:w-full max-sm:px-5'>
-                <div className='border-1 border-slate-300 flex  flex-col justify-between rounded-lg gap-5 h-[45rem] min-2xl:h-full w-full bg-white py-5 px-7 max-sm:px-4'>
-                    <p className='text-3xl min-2xl:text-4xl font-semibold'>
+            <div className='px-20 py-5 flex  justify-between gap-2 w-full h-full max-sm:flex max-sm:flex-col max-sm:w-full max-sm:px-5'>
+                <div className='border-1 border-slate-300 flex  flex-col justify-between rounded-lg gap-5 h-[45rem] w-full bg-white py-5 px-7 max-sm:px-4'>
+                    <p className='text-3xl min-2xl:text-3xl font-semibold'>
                     Service for every dog and cat
                     </p>
                     <div className='flex flex-col gap-5 justify-center w-full min-h-[500px] mt-5 min-2xl:text-2xl'>
@@ -15,7 +15,7 @@ function Tips() {
                      <Icon width={30} className='text-yellow-500' icon={"ic:sharp-tips-and-updates"} /> 
                     </span>
                     <div className='flex flex-col'>
-                    <span className='text-lg font-semibold min-2xl:text-3xl'>
+                    <span className='text-lg font-semibold min-2xl:text-2xl'>
                     Pet Boarding Tips –
                     </span>
                     <span className='text-gray-400 text-md'>
@@ -28,7 +28,7 @@ function Tips() {
                     <Icon width={30} className='text-green-600' icon={"healthicons:health"} />                     
                     </span>
                     <div className='flex flex-col'>
-                    <span className='text-lg font-semibold min-2xl:text-3xl'>
+                    <span className='text-lg font-semibold min-2xl:text-2xl'>
                     Health & Wellness –
                     </span>
                     <span className='text-gray-400 text-md'>
@@ -41,7 +41,7 @@ function Tips() {
                         <Icon width={30} className='text-orange-500' icon={"mynaui:funny-circle-solid"} />                      
                     </span>
                     <div className='flex flex-col'>
-                    <span className='text-lg font-semibold min-2xl:text-3xl'>
+                    <span className='text-lg font-semibold min-2xl:text-2xl'>
                     Fun Activities –
                     </span>
                     <span className='text-gray-400 text-md'>
@@ -54,7 +54,7 @@ function Tips() {
                         <Icon width={30} className='text-blue-500' icon={"mdi:customer-service"} />                      
                     </span>
                     <div className='flex flex-col'>
-                    <span className='text-lg font-semibold min-2xl:text-3xl'>
+                    <span className='text-lg font-semibold min-2xl:text-2xl'>
                     Customer Storie –
                     </span>
                     <span className='text-gray-400 text-md'>
@@ -68,7 +68,7 @@ function Tips() {
                         <Icon width={30} className='text-red-600' icon={"bxs:offer"} />                     
                     </span>
                     <div className='flex flex-col'>
-                    <span className='text-lg font-semibold min-2xl:text-3xl'>
+                    <span className='text-lg font-semibold min-2xl:text-2xl'>
                     Special Offers & Update –
                     </span>
                     <span className='text-gray-400 text-md'>
