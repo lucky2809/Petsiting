@@ -11,16 +11,16 @@ function Home() {
     console.log(date)
   return (
     <div className=''>
-        <div  className='main flex flex-col justify-center px-35 min-2xl:px-70 min-2xl:py-20 min-2xl:text-3xl'>
+        <div  className='main flex flex-col justify-center px-35 min-2xl:px-60 min-2xl:py-20 min-2xl:text-2xl'>
     
 
             <div className='z-30 gap-4 relative w-full flex flex-col rounded-lg shadow-lg my-12 bg-white py-10'>
                 <div className=''>
                 <div className='rounded-lg flex items-center justify-around gap-4 px-10 pt-5 min-2xl:pt-15 bg-white w-fit'>
-                <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-3xl font-semibold'>
+                <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-2xl font-semibold'>
                     <input type="radio" name="" id="" className='w-5 h-5' />
                     Pet Boarding</button>
-                    <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-3xl font-semibold'>
+                    <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-2xl font-semibold'>
                     <input type="radio" name="" id="" className='w-5 h-5' />
                     Pet Boarding</button>
                     </div>
@@ -31,7 +31,7 @@ function Home() {
                     <label htmlFor="">Boarding Near</label>
                     <input type="address" className='px-2 border-1 text-xl py-1 min-2xl:px-6 min-2xl:py-4 w-full hover:bg-sky-100' placeholder='India' />
                     </div>
-                    <div className='flex flex-col min-2xl:flex min-2xl:gap-5 min-2xl:text-3xl'>
+                    <div className='flex flex-col min-2xl:flex min-2xl:gap-5 min-2xl:text-2xl'>
                     <label htmlFor="">For These Days</label>
                     <div className='flex items-center gap-3 min-2xl:flex min-2xl:gap-5'>
                     <input type="date" className='px-2 min-2xl:px-6 min-2xl:py-4 border-1 text-xl py-1 hover:bg-sky-100 ' placeholder="Drop Off"/>
@@ -51,7 +51,7 @@ function Home() {
                         </div>
         
                     <div className=' w-full items-center'>
-                        <button className='w-full p-2 min-2xl:py-3 text-lg min-2xl:text-3xl font-semibold rounded-lg text-white bg-green-700 hover:bg-green-950' onClick={() => setToggle(!toggle)}>Get Price</button>
+                        <button className='w-full p-2 min-2xl:py-3 text-lg min-2xl:text-2xl font-semibold rounded-lg text-white bg-green-700 hover:bg-green-950' onClick={() => setToggle(!toggle)}>Get Price</button>
                     </div>
                     </div>
                 </div>
