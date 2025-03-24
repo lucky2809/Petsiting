@@ -11,32 +11,32 @@ function Home() {
     console.log(date)
   return (
     <div className=''>
-        <div  className='main flex flex-col justify-center px-35'>
+        <div  className='main flex flex-col justify-center px-35 min-2xl:px-70 min-2xl:py-20 min-2xl:text-3xl'>
     
 
             <div className='z-30 gap-4 relative w-full flex flex-col rounded-lg shadow-lg my-12 bg-white py-10'>
                 <div className=''>
-                <div className='rounded-lg flex items-center justify-around gap-4 px-10 pt-5 bg-white w-fit'>
-                <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg font-semibold'>
+                <div className='rounded-lg flex items-center justify-around gap-4 px-10 pt-5 min-2xl:pt-15 bg-white w-fit'>
+                <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-3xl font-semibold'>
                     <input type="radio" name="" id="" className='w-5 h-5' />
                     Pet Boarding</button>
-                    <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg font-semibold'>
+                    <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-3xl font-semibold'>
                     <input type="radio" name="" id="" className='w-5 h-5' />
                     Pet Boarding</button>
                     </div>
 
                 </div>
-                <div className='rounded-lg flex items-center gap-4 px-10  bg-white w-full'>
-                    <div className='flex flex-col w-full'>
+                <div className='rounded-lg flex min-2xl:flex min-2xl:flex-col min-xl::items-center gap-4 px-10  bg-white w-full'>
+                    <div className='flex flex-col w-full min-2xl:flex min-2xl:gap-5'>
                     <label htmlFor="">Boarding Near</label>
-                    <input type="address" className='px-2 border-1 text-xl py-1 w-full hover:bg-sky-100' placeholder='India' />
+                    <input type="address" className='px-2 border-1 text-xl py-1 min-2xl:px-6 min-2xl:py-4 w-full hover:bg-sky-100' placeholder='India' />
                     </div>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col min-2xl:flex min-2xl:gap-5 min-2xl:text-3xl'>
                     <label htmlFor="">For These Days</label>
-                    <div className='flex items-center gap-3'>
-                    <input type="date" className='px-2 border-1 text-xl py-1 hover:bg-sky-100 ' placeholder="Drop Off"/>
+                    <div className='flex items-center gap-3 min-2xl:flex min-2xl:gap-5'>
+                    <input type="date" className='px-2 min-2xl:px-6 min-2xl:py-4 border-1 text-xl py-1 hover:bg-sky-100 ' placeholder="Drop Off"/>
                     <Icon width={30} className='text-gray-300' icon={"mynaui:arrow-right"} />
-                    <input type="date" className='px-2 border-1 text-xl py-1 hover:bg-sky-100' placeholder='Pick up' />
+                    <input type="date" className='px-2 min-2xl:px-6 min-2xl:py-4 border-1 text-xl py-1 hover:bg-sky-100' placeholder='Pick up' />
                     </div>
                     </div>
                 </div>
@@ -45,25 +45,25 @@ function Home() {
                 <p className='w-full'>How Many Pets ?</p>
                     <div className='w-full flex gap-7 items-center'>
                         <div className=' w-full flex gap-2'>
-                        <button className='w-full items-center p-2 border-1 text-xl hover:bg-sky-100'>1</button>
-                        <button className='w-full items-center p-2 border-1 text-xl hover:bg-sky-100'>2</button>
-                        <button className='w-full items-center p-2 border-1 text-xl hover:bg-sky-100'>3+</button>
+                        <button className='w-full items-center p-2 min-2xl:py-3 border-1 text-xl hover:bg-sky-100'>1</button>
+                        <button className='w-full items-center p-2 min-2xl:py-3 border-1 text-xl hover:bg-sky-100'>2</button>
+                        <button className='w-full items-center p-2 min-2xl:py-3 border-1 text-xl hover:bg-sky-100'>3+</button>
                         </div>
         
                     <div className=' w-full items-center'>
-                        <button className='w-full p-2 text-lg font-semibold rounded-lg text-white bg-green-700 hover:bg-green-950' onClick={() => setToggle(!toggle)}>Get Price</button>
+                        <button className='w-full p-2 min-2xl:py-3 text-lg min-2xl:text-3xl font-semibold rounded-lg text-white bg-green-700 hover:bg-green-950' onClick={() => setToggle(!toggle)}>Get Price</button>
                     </div>
                     </div>
                 </div>
 
 
-                <div className=' w-full absolute -top-11 px-35'>
-            <div className=' w-full flex gap-6 mt-3 items-center text-xl font-semibold p-5 px-10 rounded-lg shadow-lg  bg-white'>
+                <div className=' w-full absolute -top-11 min-2xl:-top-14 px-35'>
+            <div className=' w-full flex gap-6 mt-3 items-center text-xl min-2xl:text-3xl font-semibold p-5 min-2xl:py-8 px-10 rounded-lg shadow-lg  bg-white'>
                 {/* <button className='px-5 p-3 border-1 rounded-sm bg-white'>Pet Boarding</button>
                 <button className='px-5 p-3 border-1 rounded-sm bg-white'>Pet Boarding</button> */}
                 <p>I'm looking for Service for My : </p>
                 <div className='flex gap-5 items-center'>
-                <input type="checkbox" className='h-5 w-5' name="" id="" />
+                <input type="checkbox" className='h-5 w-5 min-2xl:h-7 min-2xl:w-7' name="" id="" />
                 <p>Cat</p>
                 </div>
             </div>

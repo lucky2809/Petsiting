@@ -19,7 +19,7 @@ function Blog() {
                         <div className='h-96'>
                             <img className='h-full w-full object-cover ' src={data.img} />
                         </div>
-                        <div className='flex flex-col gap-5 mb-3 px-2'>
+                        <div className='flex flex-col gap-5 mb-3 px-2 py-3'>
                             <div className='flex flex-col gap-1'>
                             <h1 className='font-bold text-xl px-2'>{data.heading}</h1>
                             <p className='font-semibold text-md px-2 text-slate-600'>{data.description}</p>
