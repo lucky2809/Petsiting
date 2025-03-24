@@ -14,7 +14,7 @@ function Home() {
         <div  className='main flex flex-col justify-center px-35 min-2xl:px-80 min-2xl:py-20 min-2xl:text-2xl'>
     
 
-            <div className='z-30 gap-4 relative w-full flex flex-col rounded-lg shadow-lg my-12 bg-white py-10'>
+            <div className='z-30 gap-4 relative w-full flex flex-col rounded-lg shadow-lg my-12 bg-white opacity-95 py-10'>
                 <div className=''>
                 <div className='rounded-lg flex items-center justify-around gap-4 px-10 pt-5 min-2xl:pt-10 bg-white w-fit'>
                 <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-2xl font-semibold'>
