@@ -6,7 +6,7 @@ const newCardData = BlogData.CurrentBlog
 function Blog() {
     return (
         <>
-            <div className='Card-main border border-black w-full px-20 mt-10  mb-10 bg-slate-100 py-5 border-none'>
+            <div className='Card-main border border-black w-full px-20 min-2xl:px-60 mt-10  mb-10 bg-slate-100 py-5 border-none'>
                 <div className='flex justify-between py-3'>
                     <p className=' text-2xl font-semibold'>Blogs</p>
                     <button className='flex justify-center text-center border-1 items-center px-3 p-2 bg-green-700 text-white hover:bg-green-950'>View More ..</button>

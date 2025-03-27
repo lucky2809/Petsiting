@@ -90,7 +90,7 @@ function Tips() {
                 <div className='  flex flex-col rounded-lg gap-5 justify-between w-full bg-white '>
                     <div className='relative'>
                         <img className="object-fit h-[45rem]  w-full rounded-lg" src="../images/tipspic2.jpg" alt="" />
-                    <div className='absolute -top-5 h-full flex flex-col justify-between px-5'>
+                    <div className='absolute -top-5 h-full flex flex-col justify-between p-5'>
                     <div className=' p-5'>
                         <p className='text-white text-2xl flex flex-col gap-4 max-sm:gap-4'><span className='flex flex-col '><span className='text-8xl max-sm:text-6xl font-extrabold text-green-900'>Trusted</span> <span className='text-8xl max-sm:text-6xl font-extrabold text-green-900'> cat care</span></span><span className='text-7xl max-sm:text-5xl font-bold'> Feeding,</span><span className='text-6xl max-sm:text-5xl font-bold'> Grooming,</span><span className='text-5xl max-sm:text-4xl font-bold max-sm:font-semibold'> Health monitoring.</span></p>
                     </div>

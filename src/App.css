@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: auto;
+}
 .main {
     background-image: url(../public/images/backimg.png);
     background-size: 100%;
