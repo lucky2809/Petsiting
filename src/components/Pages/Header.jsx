@@ -19,7 +19,7 @@ function Header() {
                                 Pet Boarding</button>
                             <button className='px-5 p-3 border-1 rounded-sm bg-white items-center flex gap-2 text-lg min-2xl:text-2xl font-semibold'>
                                 <input type="radio" name="" id="" className='w-5 h-5' />
-                                Pet Boarding</button>
+                                Pet Taxi</button>
                         </div>
 
                     </div>
